@@ -184,7 +184,7 @@ class GridTest{
           do{                                    //check if the max amount of an organism has been created//
             position=(int)(Math.random()* 7+1);   /////the position represents which object is created. Each position represents a certain 
             withinLimit=true;
-            if((numSpaces==spaceAllowed)&&(position==7){
+            if((numSpaces==spaceAllowed)&&(position==7)){
               withinLimit=false;  
             }
             if((plantCount==plantLimit)&&(position==1||position==2)){
